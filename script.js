@@ -14,7 +14,11 @@ const div = (number1, number2) => {
   return number1 / number2
 }
 
-console.log(soma(2, 5))
-console.log(sub(2, 5))
-console.log(mult(2, 5))
-console.log(div(2, 5))
+const functionOperation = (firstName, Operation, lastName) => {
+  if(Operation === '+') return soma(firstName, lastName)
+  if(Operation === '-') return sub(firstName, lastName)
+  if(Operation === '*') return mult(firstName, lastName)
+  if(Operation === '/') return div(firstName, lastName)
+}
+
+console.log(functionOperation(1, '+', 1))
