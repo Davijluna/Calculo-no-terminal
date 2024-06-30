@@ -22,3 +22,15 @@ const functionOperation = (firstName, Operation, lastName) => {
 }
 
 console.log(functionOperation(1, '+', 1))
+
+const tagButton = document.getElementsByTagName('button')
+
+tagButton.addeventListerner('click', (target) => {
+  target.
+  console.log(target)
+})
+
+
+const teste = () => {
+  console.log("oi")
+}
