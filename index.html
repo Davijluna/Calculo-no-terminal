@@ -13,34 +13,43 @@
 <br>
 <br>
     <main>
+     
         <div class="calculadora-principal" align="center">
 
+            <div class="display">
+                <p>
+                0
+                </p>
+            </div>
+
+            <br>
+
            <div>
-            <button onclick="teste()">1</button>
-            <button onclick="#">2</button>
-            <button onclick="#">3</button>
+            <button onclick="teste(1)">1</button>
+            <button onclick="teste(2)">2</button>
+            <button onclick="teste(3)">3</button>
            </div>
            <div>
-            <button click="#">4</button>
-            <button onclick="#">5</button>
-            <button onclick="#">6</button>
+            <button onclick="teste(4)">4</button>
+            <button onclick="teste(5)">5</button>
+            <button onclick="teste(6)">6</button>
            </div>
            <div>
-            <button onclick="#">7</button>
-            <button onclick="#">8</button>
-            <button onclick="#">9</button>
+            <button onclick="teste(7)">7</button>
+            <button onclick="teste(8)">8</button>
+            <button onclick="teste(9)">9</button>
            </div>
            <div>
-            <button onclick=0>0</button>
-            <button onclick="=">=</button>
-            <button onclick="#">+</button>
+            <button onclick="teste(0)">0</button>
+            <button onclick="operadores('=')">=</button>
+            <button onclick="operadores('+')">+</button>
            </div>
            <div>
-            <button onclick="#">-</button>
-            <button onclick="#">x</button>
-            <button type="submit"  onclick="teste()">/</button>
+            <button onclick="operadores('-')">-</button>
+            <button onclick="operadores('x')">x</button>
+            <button type="submit"  onclick="operadores('/')">/</button>
            </div>
-            <button type="button" click=""><</button>
+            <button type="button" onclick="operadores('<')"><</button>
         </div>
     </main>
     <br>
