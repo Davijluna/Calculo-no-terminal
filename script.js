@@ -7,7 +7,14 @@ const teste = (numero) => {
 }
 
 const operadores = (simb) => {
-    console.log(simb)
+    if(simb != "=") {
+        textDisplay.innerText += simb
+    }
+    textDisplay
 }
 
+
+const clear = () => {
+    textDisplay.innerText = ''
+}
 console.log(textDisplay.innerText)
