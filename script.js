@@ -14,7 +14,7 @@ const operadores = (simb) => {
 }
 
 
-const clear = () => {
+const clean = () => {
     textDisplay.innerText = ''
 }
 console.log(textDisplay.innerText)
