@@ -1,10 +1,14 @@
 let textDisplay = document.querySelector(".display")
 
 const teste = (numero) => {
-    console.log(typeof numero)
+        let numberSize = textDisplay.innerHTML
+        if (numberSize.length < 18) {
 
-        textDisplay.innerText += numero
-        console.log(textDisplay)
+            textDisplay.innerText += numero
+            console.log(textDisplay)
+        } else {
+            alert("Limite de caracteres 18 !!!!!")
+        }
 
 
 }
