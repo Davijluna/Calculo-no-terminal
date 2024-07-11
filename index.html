@@ -7,10 +7,13 @@
     <title>calculadora</title>
 </head>
 <body>
+    <br>
+<br>
+<br>
+<br>
     <header class="calculadora-header">
         <h1 class="title">Calculadora</h1>
     </header>
-<br>
 <br>
     <main>
 
@@ -20,45 +23,42 @@
      
         <div class="calculadora-principal" aria-busy="align">
 
-            <div class="display">
-                <p>
-                0
+            <div >
+                <p class="display">
                 </p>
             </div>
 
             <br>
 
            <div>
-            <button class="tecla" onclick="clean() ">C</button>
+            <button class="tecla limpar" onclick="clean() ">C</button>
             <button class="tecla"  type="button" onclick="back()"><</button>
             <button class="tecla"  onclick="operadores('%')">%</button>
-            <button onclick="operadores('-')">-</button>
-           </div>
-           <div>
-            <div>
-                <button onclick="teste(1)">1</button>
-                <button onclick="teste(2)">2</button>
-                <button onclick="teste(3)">3</button>
-                <button onclick="operadores('x')">x</button>
-               
-           </div>
-           <div>
-            <button onclick="teste(4)">4</button>
-            <button onclick="teste(5)">5</button>
-            <button onclick="teste(6)">6</button>
             <button type="submit"  onclick="operadores('/')">/</button>
-            
+            </div>
+            <div>
+                <div>
+                    <button onclick="teste(1)">1</button>
+                    <button onclick="teste(2)">2</button>
+                    <button onclick="teste(3)">3</button>
+                    <button onclick="operadores('*')">x</button>
+                    </div>
+                    <div>
+                        <button onclick="teste(4)">4</button>
+                        <button onclick="teste(5)">5</button>
+                        <button onclick="teste(6)">6</button>
+                        <button onclick="operadores('-')">-</button>
            </div>
            <div>
             <button onclick="teste(7)">7</button>
             <button onclick="teste(8)">8</button>
             <button onclick="teste(9)">9</button>
-            <button onclick="calcular()">=</button>
+            <button onclick="operadores('+')" >+</button>
            </div>
            <div>
             <button type="button" onclick="teste('.')">.</button>
             <button onclick="teste(0)">0</button>
-            <button class="adicao" onclick="operadores('+')">+</button>
+            <button class="igual" onclick="calcular()">=</button>
            </div>
         </div>
         </div>

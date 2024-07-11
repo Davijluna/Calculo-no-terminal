@@ -4,46 +4,69 @@
 }
 
 body{
-    background-color: rgb(145, 172, 169);
+    background-color: rgb(242, 245, 247);
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+.calculadora-principal {
+    background-color: rgba(78, 83, 92, 0.712);
+    padding: 15px;
+    border-radius: 7px;
+    height: 350px;
+    border: solid 2px;
 }
 
 
 .title {
     text-align: center;
-    color: rgb(1, 18, 54);
+    color: rgb(0, 0, 0);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .display {
-    
     padding: 5px 5px 1px 5px;
     text-align: right;
-    width: 100px;
-    height: 20px;
-    background-color: beige;
+    font-size: 20px;
+    width: 320px;
+    height: 30px;
+    margin: 5px;
+    background-color: rgb(253, 253, 247);
 }
 
-.adicao {
+.limpar {
+    background-color: goldenrod;
+}
+
+.limpar:hover{
+    background-color: rgb(218, 181, 88);
+    color: rgb(0, 0, 0);
+}
+
+.igual {
     width: 165px;
+    background-color: brown;
 }
 
-.adicao:hover{
-    background-color: brown;
+.igual:hover{
+    background-color: rgb(165, 65, 65);
+    
 }
 
 button {
     width: 80px;
-    height: 30px;
+    height: 55px;
     margin: 1px 1px 1px 1px;
     padding: 0;
+    font-size: 20px;
     
 }
  button:hover{
-    background-color: rgb(111, 139, 125);
+    background-color: rgb(44, 204, 124);
     color:rgb(243, 250, 249)
  }
